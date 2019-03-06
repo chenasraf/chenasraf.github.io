@@ -13,13 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: casraf
-email: inbox@casraf.blog
-description: ""
-baseurl: "" # the subpath of your site, e.g. /blog
+title: casraf.blog
+# email: inbox@casraf.blog
+description: ''
+baseurl: '' # the subpath of your site, e.g. /blog
+author: 'by Chen Asraf'
 url: "http://casraf.blog" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: casrafy
 github_username:  chenasraf
+google_analytics: 'UA-135670940-1'
 
 # Build settings
 markdown: kramdown
@@ -39,3 +41,6 @@ permalink: /:year/:month/:title
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+exclude:
+    - scaffold_templates/
+    - scaffold.rb

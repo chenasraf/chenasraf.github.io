@@ -9,7 +9,7 @@
   // Positioning context for the mobile navigation icon
   position: relative;
 
-  background: linear-gradient(to bottom, #7a3707, #5a2600 80%);
+  background: $header-background;
   color: white;
 
   .wrapper {
@@ -211,6 +211,10 @@
   @include relative-font-size(1.5);
 }
 
+.post-snippet {
+  @include relative-font-size(1);
+}
+
 
 
 /**
@@ -256,4 +260,15 @@
       @include relative-font-size(1.125);
     }
   }
+}
+
+kbd {
+  display: inline-block;
+  border: 1px solid #999;
+  filter: drop-shadow(1px 1px transparentize(black, 0.8));
+  background: #ededed;
+  color: #555;
+  border-radius: 3px;
+  padding: 0 3px;
+  @include relative-font-size(0.9);
 }
