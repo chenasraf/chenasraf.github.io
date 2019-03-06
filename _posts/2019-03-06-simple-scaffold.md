@@ -6,12 +6,12 @@ excerpt_separator: <!--more-->
 categories: projects, node, tools
 ---
 
-As most prople who have been working a lot in front end development, I will acknowledge that
+As most people who have been working a lot in front-end development, I will acknowledge that
 no matter what framework, library set or tools you work with, you end up replicating a lot of files,
 especially with modern component-based frameworks, such as React, Angular and Vue.js.
 
-They usually grow to be very different, but they almost alway start with the same some sort of base-skeleton,
-which gets built upon later. A lot of pipeline code written, and time wasted.
+They usually grow to be very different, but they almost always start with the same some sort of base-skeleton,
+which gets *built-upon* later. A lot of pipeline code written, and **time wasted**.
 
 <!--more-->
 
@@ -32,7 +32,7 @@ quickly to add small snippets of code. You can also predefine stopping points, w
 files, you're stuck with the option to create multiple files yourself, name them appropriately, and paste
 different snippets on each file.
 
-- *Some npm libraries* provide ways to scaffold files based on templates, but from what I've seen they are either
+- *Some NPM libraries* provide ways to scaffold files based on templates, but from what I've seen they are either
 tied to specific task runners, libraries or frameworks, or they are simply quite difficult to set up and customize.
 
 
@@ -45,7 +45,7 @@ For instance: I create a lot of React components at work. We have recently moved
 structure for starting components; but we have different types of components that we want to generate based on
 context, like different file contents for page containers versus general-use components.
 
-Being fed up with my options, I made this small npm package, that does just this, in a very easy and quick way
+Being fed up with my options, I made this small NPM package, that does just this, in a very easy and quick way
 to setup. Simply put your files wherever you want, and either use the CLI tool or the package as an import -
 and you're good to go.
 
@@ -82,7 +82,7 @@ puts 'Done'
 Let's run by this real quick:
 
 - *Lines 1-8* - setting up locals such as template directory base, and some variables to pass to the templates.
-- *Lines 10-17* - We pass the parameters via a shell call (`\`` (backticks) in ruby), and immediately run using npx.
+- *Lines 10-17* - We pass the parameters via a shell call (`\`` (back-ticks) in ruby), and immediately run using npx.
 
 Locals are passed to [Handlebars][handlebars], and can be used both in file/directory names and file contents.
 
