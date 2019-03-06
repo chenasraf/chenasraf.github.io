@@ -96,25 +96,22 @@ Now all I had to do is create a place for my templates, and add a template insid
 And fill it up with some basic post:
 
 ```markdown
-{% raw %}
----
+{% raw %}---
 layout: post
 title:  "{{Name}}"
 date:   {{fullDate}}
 excerpt_separator: <!--more-->
 categories:
----
-{% endraw %}
-
+---{% endraw %}
 ```
 
-And voila! Running the script, along with a name generates the structure for me:
+And voila! Running the script, along with a name:
 
 ```shell
 ./scaffold.rb "Billy Jean is not my lover"
 ```
 
-Which gives us the following file:
+Generates the following file structure:
 
 ```
 - _posts/
