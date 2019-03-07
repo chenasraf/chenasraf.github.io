@@ -18,7 +18,7 @@ title: casraf.blog
 description: ''
 baseurl: '' # the subpath of your site, e.g. /blog
 author: 'by Chen Asraf'
-url: "http://casraf.blog" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://casraf.blog" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: casrafy
 github_username:  chenasraf
 linkedin_username: chenasraf
