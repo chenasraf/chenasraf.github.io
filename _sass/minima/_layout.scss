@@ -159,6 +159,14 @@
   margin-left: 0;
 }
 
+.social-media-list {
+  a[href*='github.com'], a[href*='twitter.com'] {
+    .username:before {
+      content: '@';
+    }
+  }
+}
+
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
   color: $grey-color;
