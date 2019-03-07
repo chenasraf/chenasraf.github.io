@@ -15,6 +15,9 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
           <div class="post-snippet">{{ post.excerpt }}</div>
+          {% if post.excerpt.size < post.content.size %}
+          <a class="post-link post-link-small" href="{{ post.url | relative_url }}">Continue reading &rarr;</a>
+          {% endif %}
         </h2>
       </li>
     {% endfor %}

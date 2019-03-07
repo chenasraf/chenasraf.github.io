@@ -1,10 +1,9 @@
 /**
  * Site header
  */
- .site-header {
-  border-top: 5px solid $grey-color-dark;
+.site-header {
+  // border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
-  min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -15,6 +14,13 @@
   .wrapper {
     display: grid;
     grid-template-columns: unquote("[title] 2fr [menu] 1fr");
+    align-items: flex-end;
+    min-height: $spacing-unit * 2.5;
+
+    @include media-query($on-palm) {
+      align-items: center;
+      min-height: $spacing-unit * 1.865;
+    }
   }
 }
 
@@ -53,15 +59,16 @@
     &:not(:last-child) {
       margin-right: 20px;
     }
+
+    @include media-query($on-palm) {
+      color: $text-color;
+    }
   }
 
   @include media-query($on-palm) {
     position: absolute;
     top: 9px;
     right: $spacing-unit / 2;
-    background-color: $background-color;
-    border: 1px solid $grey-color-light;
-    border-radius: 5px;
     text-align: right;
 
     label[for="nav-trigger"] {
@@ -82,19 +89,40 @@
       padding-top: 10px;
       text-align: center;
 
-      > svg path {
-        fill: $grey-color-dark;
+      >svg path {
+        fill: $background-color;
       }
     }
 
-    input ~ .trigger {
+    input~.trigger {
       clear: both;
-      display: none;
+      pointer-events: none;
+      top: -5px;
+      position: relative;
+      padding: 5px 0;
+
+      filter: drop-shadow(-1px 3px 2px rgba(0, 0, 0, 0.3));
+      border-radius: 5px 0 5px 5px;
+      opacity: 0;
+      transform: scale(0);
+      transform-origin: top right;
+      transition: all 100ms ease-out;
+      background: $background-color;
     }
 
-    input:checked ~ .trigger {
-      display: block;
-      padding-bottom: 5px;
+    input:checked~.trigger {
+      pointer-events: all;
+      opacity: 1;
+      transform: scale(1);
+    }
+
+    input:checked~label {
+      background: $background-color;
+      border-radius: 5px;
+
+      svg path {
+        fill: $text-color;
+      }
     }
 
     .page-link {
@@ -104,6 +132,7 @@
       &:not(:last-child) {
         margin-right: 0;
       }
+
       margin-left: 20px;
     }
   }
@@ -145,29 +174,30 @@
 
 .footer-col-1 {
   width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-  width:         calc(35% - (#{$spacing-unit} / 2));
+  width: calc(35% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
   width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-  width:         calc(20% - (#{$spacing-unit} / 2));
+  width: calc(20% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
   width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-  width:         calc(45% - (#{$spacing-unit} / 2));
+  width: calc(45% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
+
   .footer-col-1,
   .footer-col-2 {
     width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-    width:         calc(50% - (#{$spacing-unit} / 2));
+    width: calc(50% - (#{$spacing-unit} / 2));
   }
 
   .footer-col-3 {
     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
+    width: calc(100% - (#{$spacing-unit} / 2));
   }
 }
 
@@ -175,7 +205,7 @@
   .footer-col {
     float: none;
     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
+    width: calc(100% - (#{$spacing-unit} / 2));
   }
 }
 
@@ -196,7 +226,7 @@
   margin-left: 0;
   list-style: none;
 
-  > li {
+  >li {
     margin-bottom: $spacing-unit;
   }
 }
@@ -209,6 +239,10 @@
 .post-link {
   display: block;
   @include relative-font-size(1.5);
+
+  &.post-link-small {
+    @include relative-font-size(1);
+  }
 }
 
 .post-snippet {
