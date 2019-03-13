@@ -23,6 +23,9 @@ twitter_username: casrafy
 github_username:  chenasraf
 linkedin_username: chenasraf
 google_analytics: 'UA-135670940-1'
+show_excerpts: true
+disqus:
+  shortname: 'casraf-blog'
 
 # Build settings
 markdown: kramdown

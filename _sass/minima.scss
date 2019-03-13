@@ -7,7 +7,6 @@ $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
-$table-text-align: left !default;
 
 $spacing-unit:     30px !default;
 
@@ -15,17 +14,23 @@ $text-color:       #111 !default;
 $background-color: #fdfdfd !default;
 $brand-color:      #a00 !default;
 $header-foreground-color: #ffdcbb;
-$header-background: linear-gradient(to bottom, $brand-color, darken($brand-color, 5%) 80%) !default;
+// $header-background: linear-gradient(to bottom, $brand-color, darken($brand-color, 5%) 80%) !default;
+$header-background: $brand-color;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
+$orange-color:     #f66a0a !default;
+$table-text-align: left !default;
 
 // Width of the content area
 $content-width:    800px !default;
 
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
+
+$on-medium:        $on-palm !default;
+$on-large:         $on-laptop !default;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -34,6 +39,8 @@ $on-laptop:        800px !default;
 //     padding-left: $spacing-unit / 2;
 //   }
 // }
+// Notice the following mixin uses max-width, in a deprecated, desktop-first
+// approach, whereas media queries used elsewhere now use min-width.
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
     @content;

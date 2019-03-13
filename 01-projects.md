@@ -10,7 +10,7 @@ gaze at the mess.
 
 - [Redar Browser][redar]
   Chrome extensions for developers for easier REST response views
-- [Simple-Scaffold](simple-scaffold-gh)
+- [Simple-Scaffold][simple-scaffold-gh]
   NPM package for super-easy scaffolding from file templates (see my [blog post][simple-scaffold-post] about it)
 - [Chrome URL loader][chrome-url-loader]
   Chrome Extension URL loader for webpack

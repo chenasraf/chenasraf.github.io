@@ -5,7 +5,7 @@ SCAFFOLD_DIR = 'scaffold_templates'
 name, *args = ARGV
 short_date = Time.now.strftime('%Y-%m-%d')
 full_date = Time.now.strftime('%Y-%m-%d %H:%M:%S %z')
-snake_dash_name = name.split(/[^a-z0-9]/i).map(&:downcase).join('-')
+snake_dash_name = name.split(/[^a-z0-9]+/i).map(&:downcase).join('-')
 
 puts `
   npx simple-scaffold "#{name}" \
