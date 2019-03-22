@@ -272,12 +272,7 @@ class _MyHomePageState extends State<MyHomePage> {
 }
 ```
 
-We should see something like this now:
-<div class="img" markdown="1">
-![App example](/assets/images/wheel-spinner-tutorial/scr03.png)
-</div>
-
-And it should be working like this:
+Now it should work and look like this:
 <div class="img" markdown="1">
 ![App example - animation without fling](/assets/images/wheel-spinner-tutorial/scr04.gif)
 </div>
