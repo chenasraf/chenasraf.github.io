@@ -19,6 +19,8 @@ with the direction it was let go in, and using the velocity of the finger.
 1. Create a stateful widget
 2. Use `GestureDetector` to detect scroll gestures for us, and update the callbacks appropriately.
 
+*This post assumes you have some experience with Flutter and understand basic Widget composition and basic state management.*
+
 ## Step 1: Create the Widget
 
 We'll start basic. We have one base stateful widget, which will hold everything.
@@ -448,6 +450,8 @@ so any improvements you have, or if you just want to use it, head over to [the p
 or feel free to contribute at [the source on GitHub][gh-package].
 
 The source of the example app used for this tutorial [right here][gh-tut], if you want to take a look and compare.
+
+Also, feel free to correct my mistakes in the comment - I'm sure there are some.
 
 [flutter]: https://flutter.dev
 [gh-package]: https://github.com/chenasraf/wheel_spinner
