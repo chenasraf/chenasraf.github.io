@@ -109,7 +109,7 @@ We should see something like this:
 </div>
 
 Still no divider lines, though. Let's say we want to divvy up our box to 10 segments, so that each time one of them
-goes outside the bounding box, we increase or decrease the value by 1. In this example we create a Stack, with 11 lines
+goes outside the bounding box, we increase or decrease the value by 1. In this example we create a `Stack`, with 11 lines
 (10 for each division + 1 extra for the scroll effect) going from top to bottom
 (note the `lineTopPos` function that gets the correct `y` value):
 
@@ -148,7 +148,7 @@ double lineTopPos(double value, int i) {
 
 Note the line that sets `valueFraction`. We take our `value.ceil()` and reduce the current value.
 This always gives us a number between `0.0` and `1.0` that tells us how much of the *next* segment to show.
-In reality, whenever we update `value`, we will always conside the small fraction we are scrolling into,
+In reality, whenever we update `value`, we will always consider the small fraction we are scrolling into,
 which means we don't jump by 1 every time, which will cause the lines to represent the value correctly,
 and also smoothly move as we input our scroll.
 
