@@ -7,7 +7,7 @@ categories: ['tutorials', 'dart', 'flutter']
 ---
 
 [Flutter][flutter] is an amazing framework for app development. It is fairly new, but gaining popularity every second.
-Being component and composition based, and with the fact that it includes manny built-in widgets to work with,
+Being component and composition based, and with the fact that it includes many built-in widgets to work with,
 it's really easy to create amazing widgets, either simple or complex. Today we'll be learning how to create a real-world
 case widget for updating a numeric value - a spinner. Ah! But not just any spinner! We'll make this one look like
 the pitch-bending knobs you can usually find in a studio. It will also support "flinging" the finger to keep rolling
@@ -60,8 +60,8 @@ class _WheelSpinnerState extends State<WheelSpinner> {
 }
 ```
 
-As you can see, we are accepting a min, max, and current value to use with the widget.
-We are also accepting callbacks for when updating (while sliding) and when done (when finger is let go
+As you can see, we are accepting a `min`, `max`, and current `value` to use with the widget.
+We are also accepting `callback`s for when updating (while sliding) and when done (when finger is let go
 and the "fling" duration is over), which we will call once we update the actual value.
 
 #### Let's give it some shape
@@ -334,7 +334,7 @@ void onDragDone(DragEndDetails details) {
 }
 ```
 
-In the above lines we simply reset the draf start offset, as it's no longer relevant, now that the finger
+In the above lines we simply reset the drag start offset, as it's no longer relevant, now that the finger
 was let go.
 Then we get the velocity of the drag, and if it's 0, we return early and submit our callback, `onSlideDone`
 with the latest value.
@@ -443,8 +443,9 @@ And now that it's all out of the way, our widget should be fully working:
 
 
 ### Done!
-This should be pretty much it! You of course can style it and expand on it, but I've already made this a package,
-so any improvements you have, or if you just want to use it, head over to [the package on Dart Pub][pub-package], or feel free to contribute at [the source on GitHub][gh-package].
+This should be pretty much it! You can of course style it and expand on it, but I've already made this a package,
+so any improvements you have, or if you just want to use it, head over to [the package on Dart Pub][pub-package],
+or feel free to contribute at [the source on GitHub][gh-package].
 
 The source of the example app used for this tutorial [right here][gh-tut], if you want to take a look and compare.
 
