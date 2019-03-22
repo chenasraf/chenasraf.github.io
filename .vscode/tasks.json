@@ -6,7 +6,7 @@
         {
             "label": "Jekyll serve",
             "type": "shell",
-            "command": "$(which ruby) bundle exec jekyll -s --drafts",
+            "command": "$(which ruby) /usr/local/opt/ruby/bin/bundle exec jekyll s --drafts",
             "isBackground": true,
             "problemMatcher": ["$jekyll-error-watch", "$jekyll-warning-watch"],
         }

@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  document.querySelectorAll('.social-media-list a').forEach((el) => {
+  document.querySelectorAll('.social-media-list a, .post-content a:not([href^="#"])').forEach((el) => {
     el.target = '_blank';
   })
 });

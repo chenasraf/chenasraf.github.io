@@ -3,7 +3,7 @@ layout: post
 title:  "Simple Scaffold: Generating multiple files for faster coding"
 date:   2019-03-06 15:43:40 +0200
 excerpt_separator: <!--more-->
-categories: projects, node, tools
+categories: ['projects', 'node', 'tools']
 ---
 
 As most people who have been working a lot in front-end development, I will acknowledge that

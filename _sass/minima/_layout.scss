@@ -256,6 +256,32 @@
 .post-content {
   margin-bottom: $spacing-unit;
 
+  .img {
+
+    & img {
+      max-width: 350px;
+      margin: 0 auto 15px;
+      filter: drop-shadow(0 10px 7px transparentize(black,0.7));
+    }
+
+    &.no-shadow img {
+      filter: none;
+    }
+
+    &.left {
+      text-align: left;
+    }
+
+    &,
+    &.center {
+      text-align: center;
+    }
+
+    &.right {
+      text-align: right;
+    }
+  }
+
   h2 {
     @include relative-font-size(1.75);
 
