@@ -26,4 +26,4 @@ gaze at the mess.
 [chrome-url-loader]: https://github.com/chenasraf/chrome-url-loader
 [ng-qtip2]: https://github.com/chenasraf/ng-qtip2
 [dungeon_paper]: https://github.com/chenasraf/dungeon-paper
-[dungeon_paper_app]: https://github.com/chenasraf/dungeon_paper_app
+[dungeon_paper_app]: https://github.com/chenasraf/dungeon-paper-app
