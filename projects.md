@@ -8,6 +8,10 @@ I have many small and medium things on [my GitHub profile][gh], but here are som
 biggest and/or favorites. Feel free to check any of these out, open PRs or issues, or simply
 gaze at the mess.
 
+- [Dungeon Paper][dungeon_paper_app]
+  A character sheet app for Dungeon World, a popuplar tabletop game, as an open-source [Flutter][dungeon_paper_app] application.
+
+  Check it out on the [Google Play Store][dungeon_paper_android]!
 - [Redar Browser][redar]
   Chrome extensions for developers for easier REST response views
 - [Simple-Scaffold][simple-scaffold-gh]
@@ -16,8 +20,6 @@ gaze at the mess.
   Chrome Extension URL loader for webpack
 - [ngQtip2][ng-qtip2]
   An angular 1.x directive for qTip2 support
-- [Dungeon Paper][dungeon_paper_app]
-  A character sheet app for Dungeon World, a popuplar tabletop game. Working on both [Flutter][dungeon_paper_app] and [web app][dungeon_paper] variations.
 
 [gh]: https://github.com/chenasraf
 [redar]: https://github.com/chenasraf/redar-browser
@@ -25,5 +27,5 @@ gaze at the mess.
 [simple-scaffold-post]: {% post_url 2019-03-06-simple-scaffold %}
 [chrome-url-loader]: https://github.com/chenasraf/chrome-url-loader
 [ng-qtip2]: https://github.com/chenasraf/ng-qtip2
-[dungeon_paper]: https://github.com/chenasraf/dungeon-paper
 [dungeon_paper_app]: https://github.com/chenasraf/dungeon-paper-app
+[dungeon_paper_android]: https://play.google.com/store/apps/details?id=app.dungeonpaper

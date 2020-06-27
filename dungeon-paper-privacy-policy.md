@@ -21,8 +21,8 @@ The app does use third party services that may collect information used to ident
 Links to privacy policy of third party service providers used by the app:
 
 *   [Google Play Services](https://www.google.com/policies/privacy/)
-*   [Firebase Analytics](https://firebase.google.com/policies/analytics)
-*   [Sentry](https://sentry.io/privacy/)
+*   [Firebase Privacy & Security](https://firebase.google.com/support/privacy)
+*   [Firebase Analytics (Crashlytics)](https://firebase.google.com/policies/analytics)
 
 **Log Data**
 
