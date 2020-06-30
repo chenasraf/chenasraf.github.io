@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-modified: 2020-06-30T23:53:28+03:00
+modified: 2020-06-30T23:54:21+03:00
 ---
 
 I have many small and medium things on [my GitHub profile][gh], but here are some of my
@@ -16,8 +16,8 @@ gaze at the mess.
 - ### [Simple-Scaffold][simple-scaffold-gh]
   NPM package for super-easy scaffolding from file templates (see my [blog post][simple-scaffold-post] about it).
 
-- ### [Chrome URL loader][chrome-url-loader].
-  Chrome Extension URL loader for webpack
+- ### [Chrome URL loader][chrome-url-loader]
+  Chrome Extension URL loader for webpack.
 
 [gh]: https://github.com/chenasraf
 [redar]: https://github.com/chenasraf/redar-browser
