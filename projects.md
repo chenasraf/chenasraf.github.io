@@ -2,8 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-modified: 2020-06-30T23:54:56+03:00
-type: Journal
+modified: 2020-06-30T23:55:18+03:00
 ---
 
 I have many small and medium things on [my GitHub profile][gh], but here are some of my
