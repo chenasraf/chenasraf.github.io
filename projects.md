@@ -2,19 +2,17 @@
 layout: page
 title: Projects
 permalink: /projects/
+modified: 2020-06-30T23:47:36+03:00
 ---
 
 I have many small and medium things on [my GitHub profile][gh], but here are some of my
 biggest and/or favorites. Feel free to check any of these out, open PRs or issues, or simply
 gaze at the mess.
 
-- [Dungeon Paper][dungeon_paper_page]
+- ## [Dungeon Paper][dungeon_paper_page]
   A character sheet app for Dungeon World, a popuplar tabletop game, as an open-source [Flutter][dungeon_paper_github] application.
   Available on [Android][dungeon_paper_android]
 
-  Check it out on the [Google Play Store][dungeon_paper_android]!
-- [Redar Browser][redar]
-  Chrome extensions for developers for easier REST response views
 - [Simple-Scaffold][simple-scaffold-gh]
   NPM package for super-easy scaffolding from file templates (see my [blog post][simple-scaffold-post] about it)
 - [Chrome URL loader][chrome-url-loader]
