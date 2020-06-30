@@ -8,8 +8,9 @@ I have many small and medium things on [my GitHub profile][gh], but here are som
 biggest and/or favorites. Feel free to check any of these out, open PRs or issues, or simply
 gaze at the mess.
 
-- [Dungeon Paper][dungeon_paper_app]
-  A character sheet app for Dungeon World, a popuplar tabletop game, as an open-source [Flutter][dungeon_paper_app] application.
+- [Dungeon Paper][dungeon_paper_page]
+  A character sheet app for Dungeon World, a popuplar tabletop game, as an open-source [Flutter][dungeon_paper_github] application.
+  Available on [Android][dungeon_paper_android]
 
   Check it out on the [Google Play Store][dungeon_paper_android]!
 - [Redar Browser][redar]
@@ -27,5 +28,6 @@ gaze at the mess.
 [simple-scaffold-post]: {% post_url 2019-03-06-simple-scaffold %}
 [chrome-url-loader]: https://github.com/chenasraf/chrome-url-loader
 [ng-qtip2]: https://github.com/chenasraf/ng-qtip2
-[dungeon_paper_app]: https://github.com/chenasraf/dungeon-paper-app
+[dungeon_paper_page]: /dungeon-paper
+[dungeon_paper_github]: https://github.com/chenasraf/dungeon-paper-app
 [dungeon_paper_android]: https://play.google.com/store/apps/details?id=app.dungeonpaper

@@ -261,7 +261,7 @@
     & img {
       max-width: 350px;
       margin: 0 auto 15px;
-      filter: drop-shadow(0 10px 7px transparentize(black,0.7));
+      filter: drop-shadow(0 10px 7px transparentize(black, 0.7));
     }
 
     &.no-shadow img {
@@ -343,4 +343,23 @@
 .one-half {
   width: -webkit-calc(50% - (#{$spacing-unit} / 2));
   width: calc(50% - (#{$spacing-unit} / 2));
+}
+
+/**
+ * Generic helpers
+ */
+
+@for $i from 1 to 10 {
+  .push-bottom-#{$i} {
+    margin-bottom: #{$i * 5}px;
+  }
+
+  .push-top-#{$i} {
+    margin-top: #{$i * 5}px;
+  }
+}
+
+center,
+.center {
+  text-align: center;
 }
