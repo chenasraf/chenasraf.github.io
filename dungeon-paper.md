@@ -5,10 +5,10 @@ excerpt_separator: <!--more-->
 categories: apps, development, personal projects
 ---
 
-[![discord](https://img.shields.io/discord/719848105586982915?label=Discord&logo=discord&style=social)](https://bit.ly/DungeonPaper-Discord)
-[![github](https://img.shields.io/github/stars/DungeonPaper/dungeon-paper-app?style=social)](https://bit.ly/DungeonPaper-GitHub)
 [![facebook](https://img.shields.io/static/v1?label=Like&style=social&logo=facebook&message=%20)](https://bit.ly/DungeonPaper-Facebook)
 [![twitter](https://img.shields.io/twitter/follow/espadrine?label=Follow&style=social)](https://bit.ly/DungeonPaper-Twitter)
+[![discord](https://img.shields.io/discord/719848105586982915?label=Chat&logo=discord&style=social)](https://bit.ly/DungeonPaper-Discord)
+[![github](https://img.shields.io/github/stars/DungeonPaper/dungeon-paper-app?style=social)](https://bit.ly/DungeonPaper-GitHub)
 
 Dungeon World players, this is the app for you!
 
