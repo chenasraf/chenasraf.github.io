@@ -2,12 +2,12 @@
 layout: page
 title: Dungeon Paper Privacy Policy
 show_in_nav: false
-modified: 2020-07-02T12:46:09+03:00
+modified: 2020-07-02T12:47:08+03:00
 ---
 
 ##### Last updated: Jul 2nd, 2020
 
-Chen Asraf built the Dungeon Paper app as an open source app. This app is provided by Chen Asraf at no cost and is intended for use as is.
+Chen Asraf built the [Dungeon Paper](/dungeon-paper) app as an open source app. This app is provided by Chen Asraf at no cost and is intended for use as is.
 
 This page is used to inform visitors regarding our policies with the collection, use, and disclosure of personal information if anyone decided to use Dungeon Paper.
 
