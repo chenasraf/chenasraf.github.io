@@ -2,7 +2,7 @@
 layout: page
 title: Dungeon Paper Privacy Policy
 show_in_nav: false
-modified: 2020-07-02T12:47:08+03:00
+modified: 2020-07-08T17:44:20+03:00
 ---
 
 ##### Last updated: Jul 2nd, 2020
@@ -52,7 +52,7 @@ We value your trust in providing us your personal information, thus we are striv
 
 **Links to Other Sites**
 
-This app may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
+This app may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
 
 **Children’s Privacy**
 
