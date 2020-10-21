@@ -2,7 +2,7 @@
 layout: page
 title: Dungeon Paper Privacy Policy
 show_in_nav: false
-modified: 2020-07-08T17:44:20+03:00
+modified: 2020-10-22T00:21:27+03:00
 ---
 
 ##### Last updated: Jul 2nd, 2020
@@ -37,14 +37,14 @@ This app does not use these “cookies” explicitly. However, the app may use t
 
 **Service Providers**
 
-I may employ third-party companies and individuals due to the following reasons:
+We may employ third-party companies and individuals due to the following reasons:
 
 *   To facilitate our app;
 *   To provide the app on our behalf;
 *   To perform app-related services; or
 *   To assist us in analyzing how our app is used.
 
-I want to inform users of this app that these third parties have access to your personal information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
+We want to inform users of this app that these third parties have access to your personal information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
 
 **Security**
 
