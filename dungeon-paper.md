@@ -1,8 +1,9 @@
 ---
 layout: page
-title:  "Dungeon Paper"
+title: Dungeon Paper
 excerpt_separator: <!--more-->
 categories: apps, development, personal projects
+modified: 2020-10-28T23:32:43+02:00
 ---
 
 [![facebook](https://img.shields.io/static/v1?label=Like&style=social&logo=facebook&message=%20)](https://bit.ly/DungeonPaper-Facebook)
@@ -17,7 +18,7 @@ Keep all your characters' bio, stats, moves and possessions with this interactiv
 ![dungeon paper](/assets/images/dungeon-paper/logo-512.png)
 {: style="width: 256px; height: auto; text-align: center; margin: 0 auto 30px;"}
 
-[![facebook](https://img.shields.io/static/v1?label=Google%20Play&style=for-the-badge&logo=google-play&message=%E2%80%BA&labelColor=689f38&color=33691e&)](https://bit.ly/DungeonPaper-Android)
+[![android](https://img.shields.io/static/v1?label=Google%20Play&style=for-the-badge&logo=google-play&message=%E2%80%BA&labelColor=689f38&color=33691e&)](https://bit.ly/DungeonPaper-Android) [![ios](https://img.shields.io/static/v1?label=App%20Store&style=for-the-badge&logo=apple&message=%E2%80%BA&labelColor=000000&color=000000&)](https://bit.ly/DungeonPaper-iOS)
 {: class="center push-bottom-3 push-top-1"}
 
 All the customization you need for a great experience is here:
@@ -32,5 +33,4 @@ All the customization you need for a great experience is here:
 * Roll dice from anywhere in the app
 {: class="push-bottom-6"}
 
-➸ [Privacy Policy](https://bit.ly/DungeonPaper-Privacy)  
-
+➸ [Privacy Policy](https://bit.ly/DungeonPaper-Privacy)
