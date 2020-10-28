@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-modified: 2020-06-30T23:55:18+03:00
+modified: 2020-10-28T23:44:31+02:00
 ---
 
 I have many small and medium things on [my GitHub profile][gh], but here are some of my
@@ -11,7 +11,7 @@ gaze at the mess.
 
 - ### [Dungeon Paper][dungeon_paper_page]
   A character sheet app for Dungeon World, a popuplar tabletop game, as an open-source [Flutter][dungeon_paper_github] application.
-  Available on [Android][dungeon_paper_android].
+  Available on [Android][dungeon_paper_android] and [iOS][dungeon_paper_ios].
 
 - ### [Simple-Scaffold][simple-scaffold-gh]
   NPM package for super-easy scaffolding from file templates (see my [blog post][simple-scaffold-post] about it).
@@ -27,4 +27,5 @@ gaze at the mess.
 [ng-qtip2]: https://github.com/chenasraf/ng-qtip2
 [dungeon_paper_page]: /dungeon-paper
 [dungeon_paper_github]: https://github.com/chenasraf/dungeon-paper-app
-[dungeon_paper_android]: https://play.google.com/store/apps/details?id=app.dungeonpaper
+[dungeon_paper_android]: https://bit.ly/DungeonPaper-Android
+[dungeon_paper_ios]: https://bit.ly/DungeonPaper-iOS
