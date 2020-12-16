@@ -15,17 +15,17 @@
 # in the templates via {{ site.myvariable }}.
 title: casraf.blog
 # email: inbox@casraf.blog
-description: ''
-baseurl: '' # the subpath of your site, e.g. /blog
-author: 'by Chen Asraf'
+description: ""
+baseurl: "" # the subpath of your site, e.g. /blog
+author: "by Chen Asraf"
 url: "https://casraf.blog" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: casrafy
-github_username:  chenasraf
+github_username: chenasraf
 linkedin_username: chenasraf
-google_analytics: 'UA-135670940-1'
+google_analytics: "UA-135670940-1"
 show_excerpts: true
 disqus:
-  shortname: 'casraf-blog'
+  shortname: "casraf-blog"
 
 # Build settings
 markdown: kramdown
@@ -33,6 +33,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-redirect-from
 permalink: /:year/:month/:title
 header_pages:
   - projects.md
@@ -50,5 +51,5 @@ header_pages:
 #   - vendor/gems/
 #   - vendor/ruby/
 exclude:
-    - scaffold_templates/
-    - scaffold.rb
+  - scaffold_templates/
+  - scaffold.rb
